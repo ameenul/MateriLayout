@@ -35,7 +35,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            />
 
         <!-- Password -->
         <EditText
@@ -45,6 +47,8 @@
             android:layout_marginTop="16dp"
             android:hint="Password"
             android:inputType="textPassword"
+            android:textColor="@android:color/black"
+
 
             />
 

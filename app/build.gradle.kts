@@ -33,6 +33,9 @@ android {
         // Adding this solved it
         jvmToolchain(21)
     }
+    buildFeatures {
+        viewBinding=true
+    }
 }
 
 dependencies {
